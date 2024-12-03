@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none ;
+  text-decoration: none;
+}
+
+.active{
+  color:red;
+}
+.aboutWrapper{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 32px;
+}
+.aboutInformation{
+width: 350px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+text-align: center;
+} 
+.coursesWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+  gap: 32px;
+}
+.iconWrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img{
+  width: 15rem;
+}
