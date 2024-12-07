@@ -43,3 +43,121 @@ text-align: center;
 .card img{
   width: 15rem;
 }
+.contactWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  height: calc(100vh - 182px);
+}
+.formWrapper{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.infoWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.errorWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+.errorWrapper img{
+  width: 20rem;
+}
+.footerWrapper{
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  padding:10px;
+  margin-top: 32px;
+}
+.navWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 32px;
+  margin-bottom: 32px;
+  padding-top: 10px;
+}
+.navigasyonWrapper{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo{
+  width: 75px;;
+}
+.personnnelWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.cardWrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:32px;
+  flex-wrap: wrap;
+}
+.personnelCard{
+  width: 30%;
+  text-align: center;
+}
+
+
+.personWrapper{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 16; 
+}
+.btnWrapper{
+display: flex;
+gap: 10px;
+}
+.pathWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnGroup{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.btnGroup a{
+  border: none;
+  padding: 5px;
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.pathDetail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width:768px){
+  .logo{
+    display: none;
+  }
+  .navigasyonWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

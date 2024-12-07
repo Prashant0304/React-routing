@@ -13,9 +13,9 @@ const Contact=()=>{
         setEmail("");
     };
     return(
-        <div className=""contactWrapper>
+        <div className="contactWrapper">
             <h1>Contact</h1>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className="formWrapper">
                 <div className="infoWrapper"> 
                     <label htmlFor="firstName">Name:</label>
                     <input type="text" id="firstName" value={firstName} onChange={(e)=>setFirstName(e.target.value)} />
